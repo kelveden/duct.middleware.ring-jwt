@@ -4,8 +4,8 @@
             [duct.module.ring-jwt]))
 
 (deftest module-wires-ring-jwt-middleware-into-handler-root
-  (let [opts        {:alg    :HS256
-                     :secret "whatever"}
+  (let [opts        {:issuers {"someissuer" {:alg    :HS256
+                                             :secret "whatever"}}}
         module      (ig/init-key :duct.module/ring-jwt opts)
         duct-config {:duct.core/environment :development}
         result      (module duct-config)]
