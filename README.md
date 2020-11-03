@@ -39,7 +39,7 @@ will merge in the following config to your Duct configuration:
   {:alg :HS256 :secret "somesecret"}
 ```
 
-You will then need to hook it into a handler of your choice in your Duct configuration; e.g.:
+You will then need to hook it into a handler of your choice in your configuration; e.g.:
 
 ```clj
 {:duct.handler/root
