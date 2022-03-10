@@ -4,7 +4,7 @@ the [ring-jwt](https://github.com/kelveden/ring-jwt) middleware.
 
 ## Installation
 ```
-[kelveden/duct.middleware.jwt "1.0.0"]
+[kelveden/duct.middleware.jwt "2.0.2"]
 ```
 
 ## Usage
