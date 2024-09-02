@@ -1,11 +1,8 @@
-# ring-jwt
+# duct.middleware.ring-jwt
+[![Clojars Project](https://clojars.org/net.clojars.kelveden/duct.middleware.ring-jwt/latest-version.svg)](https://clojars.org/net.clojars.kelveden/duct.middleware.ring-jwt)
+
 [Duct](https://github.com/duct-framework)/[Integrant](https://github.com/weavejester/integrant) keys for wrapping
 the [ring-jwt](https://github.com/kelveden/ring-jwt) middleware. 
-
-## Installation
-```
-[kelveden/duct.middleware.jwt "2.0.2"]
-```
 
 ## Usage
 
