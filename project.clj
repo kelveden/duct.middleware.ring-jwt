@@ -1,4 +1,4 @@
-(defproject net.clojars.kelveden/duct.middleware.ring-jwt "2.10.0"
+(defproject net.clojars.kelveden/duct.middleware.ring-jwt "2.10.1"
   :description "Integrant keys for kelveden/ring-jwt."
   :url "http://github.com/kelveden/duct.middleware.jwt"
   :license {:name "Eclipse Public License"
